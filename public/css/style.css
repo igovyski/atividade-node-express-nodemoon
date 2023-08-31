@@ -1,0 +1,111 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos do herói */
+.hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Estilos dos produtos */
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.product {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.25rem;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+/* Estilos do rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 10rem;
+}

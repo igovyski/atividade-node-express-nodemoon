@@ -1,0 +1,72 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilos do perfil do usuário */
+  .user-profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .user-profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  

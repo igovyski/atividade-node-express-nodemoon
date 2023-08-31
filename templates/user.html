@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style-user.css">
+  <title>Perfil do Usuário</title>
+  <script>
+    // Obtém o ID do usuário a partir da URL
+    const userId = window.location.pathname.split('/').pop();
+
+    // Exibe o ID do usuário no parágrafo com o ID 'userIdDisplay'
+    window.onload = () => {
+      const userIdDisplay = document.getElementById('userIdDisplay');
+      userIdDisplay.textContent = userId;
+    };
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Perfil do Usuário</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Perfil</a></li>
+        <li><a href="/">Configurações</a></li>
+        <li><a href="/">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="user-profile">
+    <img src="avatar.jpg" alt="Foto do Usuário">
+    <h2>Usuario <span id="userIdDisplay"></span></h2>
+    <p>Email: user<span id="userIdDisplay"></span>@example.com</p>
+    <p>Cidade: São Paulo</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Minha Aplicação. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
